@@ -490,7 +490,8 @@ q {font-family: 'Open Sans', sans-serif;
     #contact-a button[type='submit'] {
       width: 50%;
     height: 50px;
-  font-size: 2rem; }
+  font-size: 2rem;
+overflow: hidden; }
 
   #contact-a button[type='submit']:hover{
 
