@@ -488,9 +488,9 @@ q {font-family: 'Open Sans', sans-serif;
 }
 
     #contact-a button[type='submit'] {
-      width: 25%;
-    height: 50px;
-  font-size: 2rem;
+      width:auto;
+    height: 25px;
+  font-size: 1rem;
   
  }
 
