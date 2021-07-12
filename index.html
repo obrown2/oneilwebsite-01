@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oneil Brown | Web Developer</title>
+  <script src="https://kit.fontawesome.com/e3307f5f28.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/mobil.css">
+
+</head>
+
+<body>
+
+  <div class="header-top">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="current" href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+
+
+
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </div>
+
+
+    <header class="header">
+      <div class="slideshow-container ">
+        <div class="mySlides">
+          <q> Hello, I am Oneil Brown a front-end Web Developer
+          </q>
+        </div>
+        <div class="mySlides">
+          <q>I am an expert in Web Design</q>
+        </div>
+        <div class="mySlides">
+          <q> I build dynamic and responsive websites</q>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+      </div>
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </header>
+  </div>
+
+
+
+
+
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy 2021. All Right Reserved</p>
+      <div class="social">
+        <a href="https://twitter.com/GingerE83625201?s=09" target="blank"><i class="fab fa-twitter"></i></a>
+        <a href="http://www.facebook.com/orowbrown" target="blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/orowbrown/" target="blank"><i class="fab fa-instagram"></i></a>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/myjavascript.js">
+  </script>
+</body>
+
+</html>
