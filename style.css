@@ -484,11 +484,11 @@ q {font-family: 'Open Sans', sans-serif;
 
 .btn-sub {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
     #contact-a button[type='submit'] {
-      width: 50%;
+      width: 25%;
     height: 50px;
   font-size: 2rem;
   
